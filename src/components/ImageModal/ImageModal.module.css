@@ -1,6 +1,19 @@
 .imageModal {
-	background: rgb(97, 21, 79);
-	border: solid 1px;
-	border-radius: 4px;
-	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1000;
+}
+
+.imageModal img {
+	max-width: 80%;
+	max-height: 80%;
+	border-radius: 10px;
+	transition: transform 0.3s ease-in-out;
 }

@@ -1,6 +1,10 @@
 .errorMessage {
-	background: rgb(173, 30, 30);
-	border: solid 1px;
-	border-radius: 4px;
-	font-size: 40px;
+	display: block;
+	margin: 20px auto;
+	padding: 10px 30px;
+	background-color: #334eb5;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
 }
